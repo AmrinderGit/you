@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom right, #ffe5ec, #ffc2d1);
+  color: #333;
+}
+
+.love-page .photo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.love-photo {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.message-on-photo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  margin-top: -100px;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff1493;
+  transform: scale(1.1);
+}
+
+.proposal-page {
+  text-align: center;
+  padding: 40px;
+}
+
+.proposal-box {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+}
+
+.yes-button {
+  margin-top: 20px;
+  background: #e75480;
+}
+
+.hearts .heart {
+  width: 20px;
+  height: 20px;
+  background: pink;
+  position: absolute;
+  top: 0;
+  animation: float 5s linear infinite;
+  clip-path: polygon(50% 0%, 61% 11%, 71% 20%, 81% 31%, 90% 43%, 94% 55%, 94% 67%, 90% 78%, 84% 89%, 75% 97%, 63% 99%, 50% 95%, 37% 99%, 25% 97%, 16% 89%, 10% 78%, 6% 67%, 6% 55%, 10% 43%, 19% 31%, 29% 20%, 39% 11%);
+}
+
+@keyframes float {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(100vh);}
+}
